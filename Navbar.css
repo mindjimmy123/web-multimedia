@@ -1,38 +1,40 @@
 
-
 .navbar {
-  background-color: #fff;
+  background-color: #d9eabf1a;
   color: #333;
   display: flex;
-  justify-content: space-between; /* Distribute items evenly along the main axis */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
   align-items: center;
-  padding: 10px;
+  padding: 5px;
+  text-align: center;
 }
 
 .nav-brand {
   font-size: 1.5rem;
 }
+
 .nav-link {
   text-decoration: none;
   color: #fff;
   padding: 10px 20px; /* Adjust padding for better spacing */
 }
 
-
 .navbar a {
-  margin-left: 16px;
+  margin-left: 20px;
   text-decoration: none;
-  padding: 30px;
+  padding: 20px;
   color: #333; 
 }
 
 .nav-item:hover {
-  color: #8bc34a;
+  color: #ABE44E;
 }
 .nav-item.active { 
-  color: #8bc34a; 
+  color: #ABE44E; 
 }
-
+.logo{
+  margin-left: 90px;
+}
 .nav-item {
   margin: 10px 10px; 
 }
@@ -48,26 +50,22 @@
   align-items: center;
 }
 
-.nav-buttons {
-  display: flex;
-  align-items: center;
-}
-
 .login-button,
 .signup-button {
-  margin-left: 20px;
-  padding: 10px 20px;
+  margin-left: 5px;
+  padding: 5px 15px;
   background-color: transparent;
   color: #000000;
-  border: 2px solid #070707; 
-  border-radius: 20px; 
+  border: 1px solid #070707; 
+  border-radius: 30px; 
   cursor: pointer;
 }
 
 .login-button:hover,
 .signup-button:hover {
-  background-color: #fff;
-  color: #8bc34a; 
+  background-color: #ABE44E;
+  color: #ffff; 
+  border: 1px solid #ffff; 
 }
 
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import logoImage from './logo2.png';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -14,8 +15,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-default">
-      <div className="nav-brand">My Website</div>
-
+      <a href="/Home">
+        <img
+          src={logoImage}
+          width="50"
+          height="50"
+          className="logo"
+          alt="Logo"
+        />
+      </a>
       <ul className="nav-navbar">
         {navItems.map((item, index) => (
           <li key={index}>
